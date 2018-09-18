@@ -1,11 +1,11 @@
 
 def position_taken?(board, index)
   if board == ""
-    return true
+    return false
   elsif board == "X"
-    return false
+    return true
   else board == "O"
-    return false
+    return true
   end
 end
 
